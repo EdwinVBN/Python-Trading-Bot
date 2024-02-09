@@ -1,7 +1,9 @@
 import pandas as pdb
 
 from td.client import TDClient
-from td.utils import milliseconds_sinds_epoch
+# line 292
+# https://github.com/areed1192/td-ameritrade-python-api/blob/c01b2e6f37c8da5ff67a56bb806be2e4ab2c910c/td/utils.py#L4
+from td.utils import TDUtilities
 
 from datetime import datetime
 from datetime import time
